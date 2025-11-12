@@ -1,6 +1,6 @@
 package ro.pub.cs.systems.eim.lab01.myfirstandroidapplication;
 
-import android.support.v7.app.AppCompatActivity;
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.view.animation.AlphaAnimation;
@@ -8,6 +8,7 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import ro.pub.cs.systems.eim.lab01.myfirstandroidapplication.R;
 public class MainActivity extends AppCompatActivity {
 
     final private static long TRANSPARENCY_EFFECT_DURATION = 5000;
